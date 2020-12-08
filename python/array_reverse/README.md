@@ -16,7 +16,6 @@ return an array with elements in reversed order.
 
 ## Solution
 ![revered array whitboard](python/assets/reverse-array.png)
-![](python/array_reverse/array_reverse.py)
+![reverse array code](python/array_reverse/array_reverse.py)
 ![i collabrated with Audrena](https://github.com/NyxofDarkness)
 
-### i collaborate with Audrena
