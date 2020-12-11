@@ -15,7 +15,6 @@ return an array with elements in reversed order.
 - Verification
 
 ## Solution
-![revered array whitboard](python/assets/reverse-array.png)
-![reverse array code](python/array_reverse/array_reverse.py)
+![revered array whitboard](../assets/reverse-array.png)
 ![i collabrated with Audrena](https://github.com/NyxofDarkness)
 
