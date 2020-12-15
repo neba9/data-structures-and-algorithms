@@ -1,6 +1,5 @@
 
 
-arr = [4,8,15,16,23,42]
 
 def binary_search(arr, x):
   low = 0
@@ -17,5 +16,5 @@ def binary_search(arr, x):
       high = mid - 1
 
     else:
-      return mid
-  return -1  
+      return mid or -1
+  # return -1  
