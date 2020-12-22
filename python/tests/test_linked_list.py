@@ -24,15 +24,15 @@ def test_head_link():
 new_link = LinkedList()
 
 def test_multiple_insert():
-    new_link.insert(Node(a))
-    new_link.insert(Node(b))
-    new_link.insert(Node(c))
-    actual = str(new_link)
-    expected = '{c} -> {b} -> {a} -> Null'
-    assert actual == expected 
+   new_link.insert(Node('a'))
+   new_link.insert(Node('b'))
+   new_link.insert(Node('c'))
+   actual = str(new_link)
+   expected = "{'c'} -> {'b'} -> {'a'} -> Null"
+   assert actual == expected 
 
 def test_true_search():
-    actual = new_link.includes(a)
+    actual = new_link.includes('a')
     expected = True
     assert actual == expected 
 
@@ -42,6 +42,6 @@ def test_false_search():
 
 def test_collection_of_all():
     actual = str(new_link)
-    expected = '{c} -> {b} -> {a} -> Null'
+    expected = "{'c'} -> {'b'} -> {'a'} -> Null"
     assert actual == expected
 
