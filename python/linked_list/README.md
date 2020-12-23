@@ -42,7 +42,7 @@
 
 
 - Sources:
-- [GeeksforGeeks]https://www.geeksforgeeks.org/python-program-for-reverse-a-linked-list/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/python-program-for-reverse-a-linked-list/)
 - [RealPython](https://realpython.com/linked-lists-python/#how-to-create-a-linked-list)
 - [Tutorials point](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm)
 - [stackabuse.com/](https://stackabuse.com/linked-lists-in-detail-with-python-examples-single-linked-lists/)
