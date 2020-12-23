@@ -52,8 +52,10 @@ class LinkedList:
                 node_list.append('Null')
         for new_data in node_list:
             node_print += f'{new_data}'
-        return node_print   
 
+        return node_print      
+
+    # new-code
     def append_node(self, value):
         new_node = Node(value, next=None)
         if self.head is not None:
@@ -106,6 +108,8 @@ if __name__ == "__main__":
 
     # new_linked2 = LinkedList(new_node)
     # print(new_linked2.insert_before(1, 10))
+
     # print(new_linked2)    
      
     
+
