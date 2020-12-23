@@ -1,13 +1,18 @@
+ 
 # linked-list-branch Challenge Summary
+
+# linked list -Challenge Summary
+
 - Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
 - need to create a class for the Linked List. This class will contain the methods to insert.
 -  insert an item in a single linked list is to add an item at the start of the list. 
 
-## Challenge Description
+## linked list  -Challenge Description
 - Define a method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance.
 - Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list.
 - Define a method called toString (or __str__ in Python) which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
 "{ a } -> { b } -> { c } -> NULL"
+
 
 # ll-insertions-branch Challenge Summary
 - .append(value) which adds a new node with the given value to the end of the list
@@ -33,6 +38,9 @@
 - Where the linked list is of a size 1
 - “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
 
+
+
+
 - Sources:
 - [GeeksforGeeks]https://www.geeksforgeeks.org/python-program-for-reverse-a-linked-list/)
 - [RealPython](https://realpython.com/linked-lists-python/#how-to-create-a-linked-list)
@@ -53,3 +61,8 @@
 ![ll-kth-from-end white board image](../assets/ll-kth-from-end.png)
 #### Collaborate with Alex Angelico, Anthony Beaver, Karlo Mangubat.
 #### for lab-06 and lab-07 Collaborate with Grace Choi,Louis Caruso, Karlo Mangubat.
+
+
+
+
+
