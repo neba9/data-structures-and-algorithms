@@ -9,23 +9,7 @@
 - Define a method called toString (or __str__ in Python) which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
 "{ a } -> { b } -> { c } -> NULL"
 
-# ll-insertions lab-06 -Challenge Summary
-- Can successfully add a node to the end of the linked list
-- Can successfully add multiple nodes to the end of a linked list
-- Can successfully insert a node before a node located i the middle of a linked list
-- Can successfully insert a node before the first node of a linked list
-- Can successfully insert after a node in the middle of the linked list
-- Can successfully insert a node after the last node of the linked list
 
-## ll-insertions lab-06 -Challenge Description
-
-
-# ll-kth-from-end lab-07 -Challenge Summary
-- Where k is greater than the length of the linked list
-- Where k and the length of the list are the same
-- Where k is not a positive integer
-- Where the linked list is of a size 1
-- “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
 
 - Sources:
 - [GeeksforGeeks]https://www.geeksforgeeks.org/python-program-for-reverse-a-linked-list/)
