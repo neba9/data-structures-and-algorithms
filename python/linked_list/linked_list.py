@@ -1,4 +1,5 @@
 print('proof of life')
+
 # constructor to initialize the node object and create a new node class
 class Node:
     # Function to initialize the head
@@ -20,17 +21,6 @@ class LinkedList:
 
     def __init__(self):
         self.start_node = None 
-
-    # new code 
-    # def traverse_list(self):
-    #     if self.start_node is None:
-    #         print("List has no element")
-    #         return
-    #     else:
-    #         n = self.start_node
-    #         while n is not None:
-    #             print(n.item , " ")
-    #             n = n.next
 
     def insert(self, data):
         new_node = Node(data)

@@ -1,6 +1,5 @@
 from linked_list.linked_list import LinkedList, Node
 
-
 def test_import():
     assert LinkedList
 
