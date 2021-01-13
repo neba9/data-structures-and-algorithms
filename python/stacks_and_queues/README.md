@@ -49,4 +49,4 @@ Should raise exception when called on empty queue.
 
 ## Solution
 ![stack and queues white board image](../assets/stacks.png)
-#### Collaborate .
+#### Collaborate Karlo.
