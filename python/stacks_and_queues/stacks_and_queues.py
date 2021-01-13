@@ -42,7 +42,10 @@ class Stack():
         return self.top.value
     
     def is_empty(self):
-        return True
+        if self.top == None:
+          return True
+        else:
+          return False
     
 
 class Queue():
@@ -50,3 +53,37 @@ class Queue():
     def __init__(self):
         self.front = None
         self.rear = None
+
+    def enqueue(self, value):
+      node = Node(value)
+
+      if self.is_empty():
+        self.front = node
+        self.rear = self.front
+
+      else:
+        self.rear.next = node
+        self.rear = self.rear.next
+
+
+    def dequeue(self):
+      if self.is_empty():
+        raise InvalidOperationError("Method not allowed on empty collection")
+      node = self.front
+      self.front = self.front.next
+      node.next = None
+      return node.value
+
+    def peek(self):
+      if self.is_empty():
+        raise InvalidOperationError("Method not allowed on empty collection")
+      return self.front.value
+
+
+    def is_empty(self):
+      if self.front == None:
+        return True
+      else:
+        return False 
+
+   
