@@ -49,4 +49,6 @@ Should raise exception when called on empty queue.
 
 ## Solution
 ![stack and queues white board image](../assets/stacks.png)
+#### pull Rquest
+https://github.com/neba9/data-structures-and-algorithms/pull/10
 #### Collaborate Karlo.
