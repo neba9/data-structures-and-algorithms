@@ -18,3 +18,11 @@ class PseudoQueue():
         self.stack2.push(temp)
         continue
 
+if __name__ == "__main__":
+    new_stack = Stack()
+    new_stack.push("10")
+    new_stack.push("15")
+    new_stack.push("20")
+    # new_stack.pop()
+    # new_stack.pop()
+    print(new_stack)
