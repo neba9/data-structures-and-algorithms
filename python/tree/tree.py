@@ -53,11 +53,43 @@ class BinaryTree:
 class BinarySearchTree(BinaryTree):
   def add(self, value):
     #find the correct spot to add this value and add it there
-    pass
+    
+    # creat a new node containg the new elemenet
+    new_node = Node(value)
+    
+    if not self.root:
+        self.root = new_node
+        return
+    current = self.root
+    while True:
+        if new_node.value < current.value:
+            if current.left:
+                current = current.left
+            else:
+                current.left = new_node
+                return
+        else:
+            if current.right:
+                current = current.right
+            else:
+                current.right = new_node
+                return
+
 
   def contains(self, value):
     #return true if the value is in the tree or false otherwise
-    pass
+    if self.root is None:
+        print('empty tree')
+
+    current = self.root
+    while current:
+        if current.value == value:
+            return True
+        if current.value > value:
+            current = current.left
+    return False
+
+
 
 
 
@@ -65,20 +97,35 @@ if __name__ == "__main__":
     # Set a as root
     # set left of a to b
     # set the right of a to c
+    # to test  BinarySearchTree() and contains()
+    # tree = BinarySearchTree()
+    # tree.add(30)
+    # tree.add(20)
+    # tree.add(40)
+
+    # test contains() True and False
+    # print(tree.contains(30))
+    # print(tree.contains(10))
+    
+    # to test  BinarySearchTree()
+    # print(tree.root.value)
+    # print(tree.root.left.value)
+    # print(tree.root.right.value)
 
 
     a = Node("A")
     b = Node("B")
     c = Node("C")
-    d = Node("D")
-    e = Node("E")
-    f = Node("F")
+    
+    # d = Node("D")
+    # e = Node("E")
+    # f = Node("F")
 
-    b.left = d
-    b.right = e
-    c.left = f
+    # b.left = d
+    # b.right = e
+    # c.left = f
 # Option 1
-    tree = BinaryTree()
+    # tree = BinaryTree()
     # print(tree)
 
     # a.left = b
@@ -91,12 +138,13 @@ if __name__ == "__main__":
     tree = BinaryTree(Node("A"))
     tree.root.left = b
     tree.root.right = c
+
     # print(tree.root.value)
     # print(tree.root.left.value)
     # print(tree.root.right.value)
     # print(tree.root.left.left.value)
     
-    # tree.in_order()
-    # tree.pre_order()
-    # tree.post_oredr()
+    tree.in_order()
+    tree.pre_order()
+    tree.post_oredr()
 
