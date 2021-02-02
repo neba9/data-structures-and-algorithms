@@ -11,7 +11,6 @@ class BinaryTree:
     def __init__(self, root = None):
         self.root = root
 
-    
     def pre_order(self):
         def traverse(root):
             # print root first
@@ -24,7 +23,6 @@ class BinaryTree:
                 traverse(root.right)
         traverse(self.root)
 
-    
     def in_order(self):
         def traverse(root):
             # traverse left first
@@ -90,10 +88,8 @@ class BinarySearchTree(BinaryTree):
     return False
 
 
-
-
-
 if __name__ == "__main__":
+  
     # Set a as root
     # set left of a to b
     # set the right of a to c
@@ -113,9 +109,9 @@ if __name__ == "__main__":
     # print(tree.root.right.value)
 
 
-    a = Node("A")
-    b = Node("B")
-    c = Node("C")
+    # a = Node("A")
+    # b = Node("B")
+    # c = Node("C")
     
     # d = Node("D")
     # e = Node("E")
@@ -135,16 +131,16 @@ if __name__ == "__main__":
     # print(tree.root.left.value)
     # print(tree.root.right.value)
 # option 2
-    tree = BinaryTree(Node("A"))
-    tree.root.left = b
-    tree.root.right = c
+    # tree = BinaryTree(Node("A"))
+    # tree.root.left = b
+    # tree.root.right = c
 
     # print(tree.root.value)
     # print(tree.root.left.value)
     # print(tree.root.right.value)
     # print(tree.root.left.left.value)
     
-    tree.in_order()
-    tree.pre_order()
-    tree.post_oredr()
+    # tree.in_order()
+    # tree.pre_order()
+    # tree.post_oredr()
 
