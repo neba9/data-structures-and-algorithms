@@ -1,15 +1,15 @@
-# from tree.tree import Node
-from tree.tree import Node, BinaryTree
+from .tree import Node
+# from tree.tree import Node, BinaryTree
 
 
 
 def find_maximum_value(root):
   if (root == None):
-    print('tree is empety')
+    return float('-inf')
 
   current = root.value
-  left_value = find_maximum_value(left.value)
-  right_value = find_maximum_value(right.value)
+  left_value = find_maximum_value(root.left)
+  right_value = find_maximum_value(root.right)
 
   if left_value > current:
     current = left_value
@@ -28,4 +28,5 @@ if __name__ == '__main__':
   root.right.right = Node(9)
   root.right.right.left = Node(6)
   print(find_maximum_value(root))
+  pass 
   

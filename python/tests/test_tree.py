@@ -74,7 +74,7 @@ def test_post_order():
 
   expected = 'B'
   expected = 'C'
-  expected = 'A'
+  expected = 'C'
 
   assert actual == expected
 

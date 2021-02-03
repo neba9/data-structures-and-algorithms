@@ -1,8 +1,10 @@
 import pytest
-from find_maximum_binary_tree/find_maximum_binary_tree import find_maximum_value
-from tree.tree import Node
 
-def find_maximum_value(root):
+from find_maximum_binary_tree.find_maximum_binary_tree import find_maximum_value
+from find_maximum_binary_tree.tree import Node
+
+
+def test_find_maximum_value():
   root = Node(2)
   root.left = Node(7)
   root.right = Node(5)
