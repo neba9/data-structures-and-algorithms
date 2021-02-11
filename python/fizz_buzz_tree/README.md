@@ -11,8 +11,6 @@ Without utilizing any of the built-in methods available to your language, determ
 - If the value is not divisible by 3 or 5, simply turn the number into a String.
 
 ### Sources Link:
-- [Find maximum (or minimum) in Binary Tree](https://www.geeksforgeeks.org/find-maximum-or-minimum-in-binary-tree/)
-
 
 ## Approach & Efficiency
 - Problem Domain
@@ -23,5 +21,5 @@ Without utilizing any of the built-in methods available to your language, determ
 
 
 ## Solution
-![find maximum value in binary tree white board image](../assets/find_max_value.png)
+![FizzBuzzTree which takes a k-ary tree as an argument. white board image](../assets/FizzBuzz.png)
 #### Collaborate.
