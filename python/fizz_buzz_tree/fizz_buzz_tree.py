@@ -1,4 +1,5 @@
-from find_maximum_binary_tree.tree import Node, BinaryTree, BinarySearchTree
+# from find_maximum_binary_tree.tree import Node, BinaryTree
+from tree import Node, BinaryTree, BinarySearchTree
 
 def fizz_buzz(value):
   if value % 15 == 0:
@@ -11,10 +12,11 @@ def fizz_buzz(value):
     return str(value)
 
 def fizz_buzz_tree():
-  new_tree = BinaryTree()
-  # new_node = Node()
+  tree = BinaryTree()
+ 
+  # new_nodes = Node()
   if tree.root == None:
-    return new_tree
+    return tree
 
   def check_node(current):
     new_nodes = Node(fizz_buzz(current.value))
@@ -23,22 +25,29 @@ def fizz_buzz_tree():
     if current.right:
       new_nodes.right = check_node(current.right)
     return new_nodes
-  new_tree.root = check_node(tree.root)
-
-  return new_tree
-
-
+  tree.root = check_node(tree.root)
+  return tree
 
 
 if __name__ == '__main__':
-  tree = BinaryTree()
-  tree.root = Node(3)
-  tree.root.left = Node(5)
-  tree.root.right = Node(7)
-  tree.root.left.left =Node(15)
+  # tree = BinaryTree()
+  # tree.root = Node(3)
+  # tree.root.left = Node(5)
+  # tree.root.right = Node(7)
+  # tree.root.left.left =Node(15)
   # print(fizz_buzz_tree(tree))
 
-  # root = Node(2)
+    tree = BinaryTree(Node(2))
+    tree.root.left = 5
+    tree.root.right = 3
+    # print(tree.root.value)  
+    # print(tree.root.left) 
+    print(fizz_buzz_tree())
+    # print(tree.root.right.value)
+    # print(tree.root.left.left.value)
+
+  # root = BinaryTree()
+  # # root = Node(2)
   # root.left = Node(7)
   # root.right = Node(5)
   # root.left.right = Node(6)
@@ -46,5 +55,5 @@ if __name__ == '__main__':
   # root.left.right.right = Node(11)
   # root.right.right = Node(9)
   # root.right.right.left = Node(6)
-  # print(find_maximum_value(root))
+  # print(fizz_buzz_tree())
   # pass 
