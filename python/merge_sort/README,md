@@ -1,0 +1,26 @@
+
+# Challenge Summary
+
+- Review the pseudocode below, then trace the algorithm by stepping through the process with the provided sample array. Document your explanation by creating a blog article that shows the step-by-step output after each iteration through some sort of visual.
+
+Once you are done with your article, code a working, tested implementation of Merge Sort based on the pseudocode provided.
+
+## Challenge Description for Stack class
+
+- Provide a visual step through for each of the sample arrays based on the provided pseudo code
+- Convert the pseudo-code into working code in your language
+- Present a complete set of working tests
+
+## Time and Space Complexity of selection sort
+
+- Time complexity Big O(nLongn) 
+- space comlexity Big O(n)
+
+### Sources Link:
+- [How does merge sort work at stackabuse.com](https://stackabuse.com/merge-sort-in-python/l)
+
+- [python merge sort](https://www.pythoncentral.io/merge-sort-implementation-guide/)
+
+## Solution
+
+#### Collaborate.
