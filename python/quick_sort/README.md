@@ -24,5 +24,3 @@ Once you are done with your article, code a working, tested implementation of Qu
 - [python quicksort, log2base2.com The visual learning platform](https://www.log2base2.com/algorithms/sorting/quick-sort.html)
 
 ## Solution
-
-#### Collaborate.
