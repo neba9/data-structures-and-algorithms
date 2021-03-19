@@ -8,23 +8,20 @@ class Node:
         self.right = right
 
 class BinaryTree:
-    def __init__(self):
-        self.root = None 
-
+    def __init__(self, root = None):
+        self.root = root
 
     def pre_order(self):
-        
-      
-        output = []
-        def traverse(node):
-            output.append(node.value)
-            if node.left:
-                traverse(node.left)
-            if node.right:
-                traverse(node.right)
-
+        def traverse(root):
+            # print root first
+            print(root.value)
+            # traverse left second
+            if root.left:
+                traverse(root.left)
+            # traverse right last
+            if root.right:
+                traverse(root.right)
         traverse(self.root)
-        return output
 
     def in_order(self):
         def traverse(root):
