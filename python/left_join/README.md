@@ -27,6 +27,6 @@
 ### Sources Link:
 
 ## Solution
-![whiteboard for left_join](../assets/left_join.png)
+![whiteboard for left_join](../assets/left_join1.png)
 
 #### Collaborate.
