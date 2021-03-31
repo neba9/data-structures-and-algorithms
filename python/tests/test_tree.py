@@ -1,5 +1,7 @@
 import pytest
-from tree.tree import Node,BinaryTree,BinarySearchTree
+from fizz_buzz_tree.tree import Node,BinaryTree,BinarySearchTree
+
+# from tree.tree import Node,BinaryTree,BinarySearchTree
 
 def test_add_single():
   tree = BinarySearchTree()
