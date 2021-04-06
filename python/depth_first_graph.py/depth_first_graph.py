@@ -1,9 +1,12 @@
 from graph.graph import Graph, Vertex
 
-def breadth_first_graph(self, start_vertex):
+def depth_first_graph(self, start_vertex):
   
   out_put = []
   queue = [start_vertex]
+
+  if start_vertex not in self._adjacency_list:
+      raise KeyError('start Vertex is not i graph')
 
   # keep looping until there are nodes still to be checked
   while queue:
@@ -15,15 +18,6 @@ def breadth_first_graph(self, start_vertex):
 
           # add neighbours of node to queue
           for neighbour in neighbours:
-              queue.append(neighbour)
+              queue.append(neighbour[vertex] - out_put)
               
   return out_put
-
-
-
-
-
-
-
-
-
